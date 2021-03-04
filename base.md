@@ -10,7 +10,7 @@ from discord.ext import commands
 # What prefix does the bot have. In my case its dot
 bot = commands.Bot(command_prefix = '.', help_command=None)
 
-# Bot logged in
+
 @bot.event
 async def on_ready():
     print('Logged in')
